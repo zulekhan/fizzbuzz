@@ -35,5 +35,25 @@ FizzBuzz
 ## Instructions
 
 1. Clone the repo to your machine
-1. Add your code tot he fizzbuzz.py file
-1. 
+1. Add your code to the fizzbuzz.py file
+1. Add, Commit, and Push your code to GitHub
+
+
+### Optional: Automated Code Testing
+
+This repo contains a small testing program that is automatically run by GitHub
+to validate your code. This testing program is contained in the test_fizz.py 
+file. You don't have to do anything with this file to complete the exercise, 
+but you can follow these steps if you would like to run the tests on your 
+machine.
+
+1. Open GitBash in Windows or the Terminal in Mac and navigate to the project folder.
+1. Install the `pytest` packages. This program uses a python package called pytest. We'll be covering packages later in the course, so for now you can 
+just run the following command  without getting into the details of how it
+works: `pip install pytest`.
+1. Run the tests. We won't be covering testing with python in this course. Use 
+the following command to run the tests: `pytest test_fizz.py`. If you would like
+to read more about it [here](https://realpython.com/python-testing/).
+1. Review the output from running the test. This will let you know whether your
+code produces the expected results. 
+
