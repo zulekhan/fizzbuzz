@@ -52,8 +52,7 @@ machine.
 just run the following command  without getting into the details of how it
 works: `pip install pytest`.
 1. Run the tests. We won't be covering testing with python in this course. Use 
-the following command to run the tests: `pytest test_fizz.py`. If you would like
-to read more about it [here](https://realpython.com/python-testing/).
+the following command to run the tests: `pytest test_fizz.py`. You can read more about it [here](https://realpython.com/python-testing/).
 1. Review the output from running the test. This will let you know whether your
 code produces the expected results. 
 
