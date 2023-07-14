@@ -34,10 +34,12 @@ FizzBuzz
 
 ## Instructions
 
-1. Clone the repo to your machine
+1. Fork this repo to your account
+1. Clone your forked repo to your machine
 1. Add your code to the fizzbuzz.py file
+1. Optional: test your code on your maching using the automated testing (explained below)
 1. Add, Commit, and Push your code to GitHub
-
+1. Create a Pull Request to merge your code back to the original repo
 
 ### Optional: Automated Code Testing
 
@@ -52,7 +54,7 @@ machine.
 just run the following command  without getting into the details of how it
 works: `pip install pytest`.
 1. Run the tests. We won't be covering testing with python in this course. Use 
-the following command to run the tests: `pytest test_fizz.py`. You can read more about it [here](https://realpython.com/python-testing/).
+the following command to run the tests: `pytest tests.py`. You can read more about it [here](https://realpython.com/python-testing/).
 1. Review the output from running the test. This will let you know whether your
 code produces the expected results. 
 

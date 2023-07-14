@@ -2,7 +2,7 @@ import importlib
 import sys
 import io
 
-def test_fizz(monkeypatch):
+def test_output(monkeypatch):
     mocked_stdout = io.StringIO()
     expected_output = "".join("""
         12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz1617Fizz19BuzzFizz2223
